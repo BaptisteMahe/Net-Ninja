@@ -1,0 +1,16 @@
+Browsers doesn't understand requiring other js files in one js file
+Use of webpack permit to bundle all your js files in one in vanilla js that
+browser understand :
+
+npm install webpack 			(install webpack for your app with npm)
+webpack script.js ./bundle.js		(bundle script.js and it's requiries in one file : bundle.js)
+
+The upping command is used if you don't have any webpack.config.js file
+CF webpack.config.js in this directory
+
+webpack					(use webpack.config.js to bundle with the good configs)
+
+npm install webpack-cli
+
+npm install webpack-dev-server
+webpack-dev-server    (use to run the serveris you have a webpack.config.js)
